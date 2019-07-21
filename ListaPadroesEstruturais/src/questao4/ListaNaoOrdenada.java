@@ -15,7 +15,7 @@ public class ListaNaoOrdenada extends AbstracaoLista{
 	@Override
 	public void imprimir() {
 		System.out.println("imprimindo na nao ordenada");
-		lista.imprime_itens_lista();
+		lista.imprimeItensLista();
 	}
 
 }

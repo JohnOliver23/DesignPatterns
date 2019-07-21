@@ -19,5 +19,5 @@ public abstract class ImplementacaoLista{
 		return lista;
 	}
 
-	public void imprime_itens_lista() {}
+	public void imprimeItensLista() {}
 }

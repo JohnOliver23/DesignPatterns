@@ -1,10 +1,10 @@
 package questao5;
 
-public class teste {
+public class App {
 
 	public static void main(String[] args) {
 
-		ArquivoAbstracao pasta = new Pasta("minha pasta/");
+		ArquivoAbstracao pasta = new Pasta("videos/");
 		ArquivoAbstracao video = new ArquivoVideo("video.mp4");
 		ArquivoAbstracao video2 = new ArquivoVideo("video2.mp4");
 		

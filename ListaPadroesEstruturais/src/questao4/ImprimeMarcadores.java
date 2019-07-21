@@ -3,9 +3,9 @@ package questao4;
 public class ImprimeMarcadores extends ImplementacaoLista{
 
 	@Override
-	public void imprime_itens_lista() {
+	public void imprimeItensLista() {
 		for(String item: lista) {
-			System.out.println(item + " " + "-");
+			System.out.println(item + " " + "*");
 		}
 	}
 }

@@ -3,9 +3,9 @@ package questao4;
 public class ImprimeLetras extends ImplementacaoLista{
 
 	@Override
-	public void imprime_itens_lista() {
+	public void imprimeItensLista() {
 		for(String item: lista) {
-			System.out.println(item + " " + "a");
+			System.out.println(item + " " + item.charAt(0));
 		}
 	}
 	

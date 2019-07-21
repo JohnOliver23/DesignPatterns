@@ -10,15 +10,15 @@ public class ListaOrdenada extends AbstracaoLista{
 
 	@Override
 	public void adicionar(String s) {
-		System.out.println("adiionando na ordenada");
+		System.out.println("adiconando lista ordenada");
 		lista.add(s);
 	}
 
 	@Override
 	public void imprimir() {
-		System.out.println("imprimindo na ordenada");
+		System.out.println("imprimindo lista ordenada");
 		Collections.sort(lista.getLista());
-		lista.imprime_itens_lista();
+		lista.imprimeItensLista();
 	}
 
 	
